@@ -7,23 +7,24 @@ html, body{
     line-height: 1.8em;
     
 }
-.pimg1{
+.img-1{
     background-image: url(images/pimg1.jpg);
     min-height: 100%;
     }
-.pimg2{
-    background-image: url(images/pimg1.jpg);
+.img-2{
+    background-image: url(images/pimg2.jpg);
     min-height: 400px;
     }
-.pimg3{
-    background-image: url(images/pimg1.jpg);
+.img-3{
+    background-image: url(images/pimg3.jpg);
     min-height: 400px;
     }
-.pimg1, .pimg2, .pimg3{
+.img-1, .img-2, .img-3{
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .ptext{
     color: black;
@@ -39,10 +40,17 @@ html, body{
     color: white;
     padding: 15px 20px;
 }
-.section_light{
-    margin: 30px 50px;
+.section{
+    padding: 30px 50px;
     text-align: justify;
 }
 .section_light h1{
+    text-align: center;
+}
+.section_dark{
+        background-color: rgb(87, 86, 86);
+    color: white;
+}
+.section_dark h1{
     text-align: center;
 }
