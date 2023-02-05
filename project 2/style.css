@@ -1,0 +1,48 @@
+html, body{
+    font-family: georgia, sans-serif ;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.8em;
+    
+}
+.pimg1{
+    background-image: url(images/pimg1.jpg);
+    min-height: 100%;
+    }
+.pimg2{
+    background-image: url(images/pimg1.jpg);
+    min-height: 400px;
+    }
+.pimg3{
+    background-image: url(images/pimg1.jpg);
+    min-height: 400px;
+    }
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext{
+    color: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    }
+.text_bg{
+    background-color: rgba(83, 79, 79, 0.84);
+    color: white;
+    padding: 15px 20px;
+}
+.section_light{
+    margin: 30px 50px;
+    text-align: justify;
+}
+.section_light h1{
+    text-align: center;
+}
